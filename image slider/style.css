@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.avif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    width: 50%;
+    height: fit-content;
+    margin-top: 2%;
+
+}
+
+.swiper-slide img{
+    width: 100%;
+
+}
+
+.swiper .swiper-button-prev, .swiper-button-next{
+    color:rgb(216, 112, 112);
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: rgb(15, 239, 71);
+}

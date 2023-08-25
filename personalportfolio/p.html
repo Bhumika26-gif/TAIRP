@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="p.css" />
+    <title>Personal Website</title>
+</head>
+
+<body>
+    <!-- Home sections -->
+    <section id="Home" class="home">
+        <!-- Nav bar -->
+        <nav>
+            <IMG SRC="logo.jpeg" CLASS="LOGO">
+            <h2 class="title">Welcome</h2>
+            <input class="threedot-check" type="checkbox" name="" id="" />
+            <div class="threedot">
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+            </div>
+            <ul class="nav-ul" id="navul">
+                <li><a onclick="toggleSelection()" href="#Home">Home</a></li>
+                <li><a onclick="toggleSelection()" href="#About">About Me</a></li>
+                <li><a onclick="toggleSelection()" href="#Skills">Skills</a></li>
+                <li><a onclick="toggleSelection()" href="#Contact">Contact Us</a></li>
+            </ul>
+        </nav><br><br>
+        <div class="container">
+            <div class="home-context">
+                <span class="brand-span">Hello,</span>
+                <h1
+                    style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    <span>I,</span>m Bhumika Lonkar
+                </h1><br>
+                <p style="font-family:cursive;">This is my official website to showes all <br> Detail and work
+                    experience .
+                </p>
+                <a target="_blank" href="BHUMIKA LONKAR_Resume.pdf">Download  CV
+                </a>
+            </div>
+            <div class="profile-pic"></div>
+            <img class="profile-pic-img" src="./my2.jpg" alt="" />
+        </div>
+    </section>
+    <!-- About Sections -->
+    <section id="About" class="about">
+        <div class="about-content">
+            <h2 class="about-title">About me</h2>
+            <div class="about-img-section">
+                <div class="about-img">
+                    <img class="about-img-pic" src="my2.jpg" alt="" />
+                </div>
+            </div>
+            <p class="about-para">
+                Hello! I am Bhumika Lonkar, a final year passed out student in the Electronics
+                and telecommunication Engineering department at Siona COET Amt. My passion revolves around dancing, cooking, and bike riding. As a highly motivated
+                and ambitious B.E student with a passion for technology, I am eager to kickstart my career
+                through valuable internships and freelancing projects..<BR> During my academic journey, I am a firm believer in the power of collaboration and
+                excel in team environments, leveraging collective strengths to achieve shared goals. In addition
+                to my technical abilities, I possess excellent communication and interpersonal skills,<BR>If you
+                are looking for a dedicated and passionate professional to join your team or collaborate on
+                projects, let's connect! I am eager to contribute my skills, enthusiasm, and drive to make a
+                positive impact in the technology industry.
+            </p>
+        </div>
+        <div class="about-timeline">
+            <section class="timeline-area">
+                <div class="">
+                    <h2>Higher Secondary</h2>
+                    <h3>Shri. Samrth Junior College</h3>
+                    <h4>2016 - 2018</h4>
+                </div>
+                <div class="">
+                    <h2>B.E Electronics and telecommunication engg.</h2>
+                    <h3>Sipna College of Engineering and technology amt</h3>
+                    <h4>2018 - 2022</h4>
+                </div>
+
+                <div class="">
+                    <h2>full stack development </h2>
+                    <h3>Self-learning</h3>
+                    <h4>2023 - Present</h4>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-- Skills Sections -->
+    <section id="Skills" class="skills">
+        <h2 class="skills-title">Skills Showcase</h2><BR>
+        <p class="skills-para">
+            I am from Amravati and currently living in Pune, I am doing Full Stack Dev. and currently working as an Intern.
+        </p>
+        <div class="skills-container">
+            <div class="tech-icon">
+                <img src="Hweb s.png" alt="HTML"><BR>
+                <H5>HTML</H5>
+            </div>
+            <div class="tech-icon">
+                <img src="Cweb s.png" alt="CSS" /><BR>
+                <h5>CSS</h5>
+            </div>
+            <div class="tech-icon">
+                <img src="Jweb s.png" alt="JavaScript" /><BR>
+                <h5>JavaScript</h5>
+            </div>
+            
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id="project" class="project">
+            <h2><i class="fas fa-code"></i> Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Project description goes here.</p> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                
+               <!-- Add more project cards here -->
+            </div>
+        </div>
+
+    </section>
+    <!-- Contact Sections -->
+    <section id="Contact" class="contact">
+        <div class="contact-container">
+            <div class="content-section">
+                <div class="contact-content">
+                    <h2 class="contact-title">contact</h2>
+                    
+                    <br>
+                    <p class="email">Email : <a href="bhumilonkar26@gmail.com">bhumilonkar26@gmail.com</a></p>
+                    <p class="tel">Tel : <a href="">+91 96579 39849</a></p>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" id="" required>
+                        <textarea name="message" placeholder="Message" id="" cols="50" rows="10" required></textarea>
+                        <button class="send">Send</button>
+                    </form>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <!-- Footer Sections -->
+    <footer class="footer">
+        <p>copyright &copy; Made with ♥️  Bhumika </p>
+    </footer>
+
+    <script>
+        function toggleSelection() {
+            const checkbox = document.querySelector(".threedot-check")
+            checkbox.checked = false;
+        }
+    </script>
+</body>
+
+</html>

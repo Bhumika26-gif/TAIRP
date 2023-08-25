@@ -1,0 +1,59 @@
+body{
+    background-image: url(17265926-blank-sheet-of-paper-with-pen-on-wooden-background.jpg);
+    font-family: 'Poppins', sans-serif;
+    background-size: 100%;
+ }
+ .container{
+
+    width: 500px;
+    padding: 23px;
+    text-align: center;
+    background-color: rgb(163, 243, 243);
+    margin-left: 33%;
+    margin-top: 50px;
+    
+    
+ }
+ input{
+    width: 400px;
+    padding: 10px;
+    border: 2px solid rgb(205, 142, 219);
+    outline: none;
+    font-size: 19px;
+
+
+ }
+
+
+ .container h1{
+    color: darkgreen;
+    font-family:'Times New Roman', Times, serif;
+   
+ }
+ button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(4, 29, 29);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family:unset;
+    outline: none;
+    border-radius: 2px;
+    font-size: 19px;
+ }
+ .text ul{
+    position:relative;
+    background-color: rgb(228, 115, 16);
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    text-align:left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .text ul i{
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+    ;
+ }
